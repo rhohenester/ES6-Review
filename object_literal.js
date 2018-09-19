@@ -5,7 +5,7 @@ let age = 30;
 let ageField = "Years old";
 
 
-let obj = { //in this case i will receive the previous age
+let obj = { 
     name: 'Raissa',
     //age,
     //age: 27
