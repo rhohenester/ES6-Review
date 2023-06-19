@@ -1,2 +1,2 @@
-# ES6-Review
+# Javascript Refresher!
 - Files with javascript syntax and functions
