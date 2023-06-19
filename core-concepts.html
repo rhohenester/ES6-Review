@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JavaScript can be executed in many environments</title>
+    <!-- defer makes sure that the imported script will be only executed after the rest of the html document has been read and parced,
+        or just move it to the end of the <body> section. -->
+    <!-- Das Attribut 'defer' stellt sicher, dass das importierte Skript erst ausgeführt wird, nachdem der Rest des HTML-Dokuments gelesen und analysiert wurde. -->
+    <script src="script_this.js" defer></script>
+
+    <!-- In modern javascript files, you can use type="module" - it makes sure that the file is treated as module, and it unlocks the import syntax -->
+    <!-- In modernen JavaScript-Dateien kannst du type="module" verwenden. Dadurch wird sichergestellt, dass die Datei als Modul behandelt wird und ermöglicht die Verwendung der Import-Syntax. -->
+     <script src="module.js" type="module"></script>
 </head>
 <body>
    <div>
@@ -23,5 +31,4 @@
         <p>Dank zusätzlicher Technologien wie Capacitor oder React Native können mobile Apps mit JavaScript entwickelt werden. In diesem Fall wird der Code direkt auf dem mobilen Gerät ausgeführt.</p>
     </div>
 </body>
-<script src="script_this.js"></script>
 </html>
